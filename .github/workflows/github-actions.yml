@@ -5,6 +5,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - name: Update environment file.
+      - run: echo "Updating environment.yml"
       - run: |
           conda env export -f environment.yml
