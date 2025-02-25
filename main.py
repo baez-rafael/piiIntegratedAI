@@ -1,10 +1,2 @@
-# from datasets import load_dataset
-# from nltk.tokenize import word_tokenize, MWETokenizer
-# df = load_dataset("ai4privacy/pii-masking-200k")
-# print("Source")
-# print(df['train']['source_text'][0])
-# print("Target")
-# print(df['train']['target_text'][0])
-import numpy as np
-import tensorflow as tf
-print(tf.config.list_physical_devices())
+import urllib.request
+urllib.request.urlretrieve("https://huggingface.co/datasets/ai4privacy/pii-masking-300k/resolve/main/data/train/1english_openpii_30k.jsonl", "./cache/1english_openpii_30k.jsonl")

@@ -47,7 +47,7 @@ dependencies:
   - filelock=3.13.1=py39haa95532_0
   - flatbuffers=2.0.0=h6c2663c_0
   - frozenlist=1.5.0=py39h827c3e9_0
-  - fsspec=2024.3.1=py39haa95532_0
+  - fsspec=2024.12.0=py39haa95532_0
   - gast=0.4.0=pyhd3eb1b0_0
   - gflags=2.2.2=hd77b12b_1
   - giflib=5.2.2=h7edc060_0
@@ -134,7 +134,7 @@ dependencies:
   - regex=2024.11.6=py39h827c3e9_0
   - requests=2.32.3=py39haa95532_1
   - requests-oauthlib=2.0.0=py39haa95532_0
-  - responses=0.13.3=pyhd3eb1b0_0
+  - responses=0.25.0=py39haa95532_0
   - rsa=4.7.2=pyhd3eb1b0_1
   - scipy=1.10.1=py39hdcfc7df_1
   - setuptools=75.8.0=py39haa95532_0
